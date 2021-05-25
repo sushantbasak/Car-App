@@ -1,6 +1,29 @@
 {
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.12.10",
+    "validator": "^13.6.0"
+  },
+  "name": "car-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushantbasak/Car-App.git"
+  },
+  "keywords": [],
+  "author": "Sushant <sushantbasak73@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sushantbasak/Car-App/issues"
+  },
+  "homepage": "https://github.com/sushantbasak/Car-App#readme",
+  "description": ""
 }
